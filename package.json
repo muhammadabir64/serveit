@@ -1,6 +1,6 @@
 {
   "name": "serveit",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Desktop folder sharing over LAN and internet with tunnels, live reload, auth, and auto-updates",
   "author": "Muhammad ABir",
   "license": "GPL-3.0-only",
