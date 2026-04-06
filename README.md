@@ -75,17 +75,17 @@ Each server can be configured independently:
 
 ![ServeIt Server Controls](https://github.com/user-attachments/assets/fecd4e8e-79c6-40de-8f3c-35fcb5d0780d)
 
-### 3) Public Share + QR Modal
+### 3) Web View
+
+![ServeIt Web View](https://github.com/user-attachments/assets/11de8446-6f08-400e-8fff-c83731e3c3a1)
+
+### 4) Public Share + QR Modal
 
 ![ServeIt Public Share QR](https://github.com/user-attachments/assets/5914619c-a058-462a-b891-211a8b68eeac)
 
-### 4) Settings + Defaults
+### 5) Settings + Defaults
 
 ![ServeIt Settings](https://github.com/user-attachments/assets/5d7973eb-31e7-4690-84de-7dbe6ceba7ce)
-
-### 5) Web View
-
-![ServeIt Web View](https://github.com/user-attachments/assets/11de8446-6f08-400e-8fff-c83731e3c3a1)
 
 ---
 
