@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root.dark {
+  --app-bg: 15 23 42;
+  --app-card: 17 24 39;
+  --app-border: 39 52 73;
+  --app-primary: 96 165 250;
+  --app-danger: 248 113 113;
+  --app-text: 226 232 240;
+  --app-muted: 148 163 184;
+  color-scheme: dark;
+}
+
+:root.light {
+  --app-bg: 244 247 252;
+  --app-card: 255 255 255;
+  --app-border: 203 213 225;
+  --app-primary: 37 99 235;
+  --app-danger: 220 38 38;
+  --app-text: 15 23 42;
+  --app-muted: 71 85 105;
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  background: rgb(var(--app-bg));
+  color: rgb(var(--app-text));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.titlebar-drag {
+  -webkit-app-region: drag;
+}
+
+.titlebar-no-drag {
+  -webkit-app-region: no-drag;
+}

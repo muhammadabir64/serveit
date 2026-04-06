@@ -1,0 +1,45 @@
+{
+  "name": "serveit",
+  "version": "1.0.3",
+  "description": "Desktop folder sharing over LAN and internet with tunnels, live reload, auth, and auto-updates",
+  "author": "Muhammad ABir",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && cross-env NODE_ENV=development electron .\"",
+    "build": "vite build",
+    "dist": "npm run build && cross-env CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --publish never",
+    "dist:win": "npm run build && cross-env CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --win --publish never",
+
+    "dist:linux": "npm run build && electron-builder --linux deb --publish never",
+    "dist:linux:all": "npm run build && electron-builder --linux --publish never",
+    "lint": "eslint src electron",
+    "format": "prettier --write src electron"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "electron-store": "^8.2.0",
+    "electron-updater": "^6.3.0",
+    "localtunnel": "^2.0.2",
+    "mime-types": "^2.1.35",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.0",
+    "concurrently": "^9.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "eslint": "^9.0.0",
+    "lucide-react": "^0.469.0",
+    "postcss": "^8.4.0",
+    "prettier": "^3.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.0",
+    "vite": "^6.0.0",
+    "wait-on": "^8.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ServeIt
+Comment=Serve any folder over HTTP instantly
+Exec=/usr/bin/serveit %U
+Icon=serveit
+Categories=Development;Network;
+Terminal=false
