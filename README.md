@@ -65,8 +65,6 @@ Each server can be configured independently:
 
 ---
 
-<img width="800" height="600" alt="4" src="" />
-
 ## Screenshots
 
 ### 1) Main Dashboard
