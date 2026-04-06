@@ -93,6 +93,9 @@ Each server can be configured independently:
 
 - **Windows Installer (.exe):**  
   https://github.com/muhammadabir64/serveit/releases
+  
+- **Linux (.deb):**  
+  *coming soon*
 
 ---
 
