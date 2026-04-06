@@ -65,29 +65,29 @@ Each server can be configured independently:
 
 ---
 
-## Screenshots
+<img width="800" height="600" alt="4" src="" />
 
-> Replace these placeholder paths with your real screenshots.
+## Screenshots
 
 ### 1) Main Dashboard
 
-![ServeIt Main Dashboard](./docs/screenshots/01-main-dashboard.png)
+![ServeIt Main Dashboard](https://github.com/user-attachments/assets/5e472567-305e-4578-8e8b-771d867c6422)
 
 ### 2) Active Server Card Controls
 
-![ServeIt Server Controls](./docs/screenshots/02-server-controls.png)
+![ServeIt Server Controls](https://github.com/user-attachments/assets/fecd4e8e-79c6-40de-8f3c-35fcb5d0780d)
 
 ### 3) Public Share + QR Modal
 
-![ServeIt Public Share QR](./docs/screenshots/03-public-share-qr.png)
+![ServeIt Public Share QR](https://github.com/user-attachments/assets/5914619c-a058-462a-b891-211a8b68eeac)
 
 ### 4) Settings + Defaults
 
-![ServeIt Settings](./docs/screenshots/04-settings.png)
+![ServeIt Settings](https://github.com/user-attachments/assets/5d7973eb-31e7-4690-84de-7dbe6ceba7ce)
 
-### 5) About + Updater
+### 5) Web View
 
-![ServeIt About Updater](./docs/screenshots/05-about-updater.png)
+![ServeIt Web View](https://github.com/user-attachments/assets/11de8446-6f08-400e-8fff-c83731e3c3a1)
 
 ---
 
