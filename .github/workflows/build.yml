@@ -9,22 +9,27 @@ on:
 jobs:
   build:
     strategy:
+      fail-fast: false
       matrix:
         include:
           - os: windows-latest
             script: dist:win
+            allow_failure: false
             files: |
               dist/*.exe
               dist/*.yml
               dist/*.blockmap
           - os: ubuntu-latest
             script: dist:linux:all
+            allow_failure: true
             files: |
               dist/*.deb
               dist/*.AppImage
               dist/*.yml
 
     runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.allow_failure }}
+
     timeout-minutes: 30
     permissions:
       contents: write
